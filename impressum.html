@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Impressum & Kontakt - FocusFlow Webshop</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum & Kontakt - FocusFlow Webshop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header role="banner">
@@ -25,28 +25,48 @@
 </header>
 <main id="main-content" role="main">
     <section>
-<h1>Impressum & Kontakt</h1>
-<div style="background-color: var(--card-bg); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;">
-    <p><strong>FocusFlow Software GmbH</strong></p>
-    <p>Sitz: Schautagasse 33, 1230 Wien, Österreich</p>
-    <p>Geschäftsführung: Josef Samadi</p>
-    <p>E-Mail: kontakt@focusflow.at</p>
-    <p>Mitgliedschaften: WKO | § 24 Mediengesetz</p>
-</div>
+        <h1>Impressum & Offenlegung</h1>
+        <p>Informationspflichten nach § 5 E-Commerce-Gesetz (ECG) und Offenlegungspflicht gemäß § 24 Mediengesetz:</p>
 
-<h2>Kontaktieren Sie unser Team</h2>
-<form action="#" method="POST">
-    <div class="form-group"><label>Name:</label><input type="text" required></div>
-    <div class="form-group"><label>E-Mail:</label><input type="email" required></div>
-    <div class="form-group"><label>Nachricht:</label><textarea rows="4" required></textarea></div>
-    <button type="submit" class="btn">Senden</button>
-</form>
+        <div style="background-color: var(--card-bg); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem; border: 1px solid var(--border-color);">
+            <p><strong>FocusFlow Software GmbH</strong></p>
+            <p><strong>Unternehmensgegenstand:</strong> Entwicklung und Vertrieb von Produktivitäts-Software</p>
+            <p><strong>Sitz:</strong> Schautagasse 42, 1230 Wien, Österreich</p>
+            <p><strong>Geschäftsführung:</strong> Max Mustermann</p>
+            <p><strong>E-Mail:</strong> kontakt@focusflow.at</p>
+            <p><strong>Firmenbuchnummer:</strong> FN 123456 x</p>
+            <p><strong>Firmenbuchgericht:</strong> Handelsgericht Wien</p>
+            <p><strong>USt-IdNr (UID):</strong> ATU12345678</p>
+            <p><strong>Aufsichtsbehörde:</strong> Magistratisches Bezirksamt für den XXIII. Bezirk</p>
+            <p><strong>Mitgliedschaft:</strong> Wirtschaftskammer Wien (WKO)</p>
+            <p><strong>Anwendbare Vorschriften:</strong> Österreichische Gewerbeordnung (GewO) – frei einsehbar unter www.ris.bka.gv.at</p>
+            <p><strong>Blattlinie:</strong> Die Website dient der Präsentation und dem fiktiven Vertrieb der Software FocusFlow.</p>
+        </div>
 
-<h2 style="margin-top: 3rem;">Urheberrechtshinweise</h2>
+        <h2>Kontaktieren Sie uns</h2>
+        <p>Für Fragen oder Anregungen steht dieses Kontaktformular zur Verfügung (Prozess ist vollständig simuliert):</p>
+
+        <form action="#" method="POST" onsubmit="alert('Mock: Nachricht simuliert versendet!'); return false;">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required placeholder="Ihr Name">
+            </div>
+            <div class="form-group">
+                <label for="email">E-Mail-Adresse:</label>
+                <input type="email" id="email" required placeholder="ihre@email.at">
+            </div>
+            <div class="form-group">
+                <label for="message">Nachricht:</label>
+                <textarea id="message" rows="4" required placeholder="Ihre Nachricht an uns..."></textarea>
+            </div>
+            <button type="submit" class="btn">Senden</button>
+        </form>
+
+        <h2 style="margin-top: 3rem;">Aufgabe 2: Urheberrechtshinweise</h2>
         <table>
             <thead>
             <tr>
-                <th>Für die Aufgabe 2</th>
+                <th>Kategorie (Aufgabe 2)</th>
                 <th>Medium / Beschreibung</th>
                 <th>Quelle / Urheber</th>
                 <th>Lizenz & Verwertungsrecht</th>
@@ -85,10 +105,10 @@
             </tr>
             </tbody>
         </table>
-</section>
+    </section>
 </main>
 <footer role="contentinfo">
-    <p>&copy; 2026 FocusFlow Software GmbH. Alle Rechte vorbehalten.</p>
+    <p>&copy; 2026 FocusFlow Software GmbH. Alle Rechte vorbehalten (Mock-Projekt für universitäre Abgabe).</p>
     <nav aria-label="Fußzeilen-Navigation">
         <a href="barrierefreiheit.html" >Barrierefreiheitserklärung</a> |
         <a href="impressum.html">Kontakt</a>
